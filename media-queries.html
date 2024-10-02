@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="faith">
+    <title>Document</title>
+</head>
+<body>
+
+    <nav>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+        <i class="fa-solid fa-arrow-right-to-bracket"></i>
+        <i class="fa-solid fa-right-to-bracket"></i>
+        <i class="fa-solid fa-user-plus"></i>
+
+    </nav>
+    <div class="container">
+        <div class="grid-item"></div>
+        <div class="grid-item"></div>
+        <div class="grid-item"></div>
+        <div class="grid-item"></div>
+        <div class="grid-item"></div>
+
+    </div>
+
+    <style>
+        .container{
+            display: grid;
+            grid-template-columns: repeat(4, minmax(200px, 1fr));
+            column-gap: 20px;
+            row-gap: 15px;
+        }
+
+        .grid-item{
+            background-color: lightblue;
+            height: 200px;
+            aspect-ratio: 1/1;
+        }
+
+        @media screen and(max-width:900px){
+            .container{
+                grid-template-columns: repeat(3, minmax(200px, 1fr));
+            }
+
+        }
+
+        @media (max-width:768px){
+            .container{
+                grid-template-columns: repeat(2, minmax(200px, 1fr));
+            }
+
+            @media (max-width:500px){
+            .container{
+                grid-template-columns: repeat(1, minmax(200px, 1fr));
+            }
+
+        }
+
+        }
+    </style>
+    
+</body>
+</html>

@@ -1,0 +1,471 @@
+body {
+    font-size: 15px;
+    /* align-items: center; */
+    /* justify-content: center; */
+    /* text-align: center; */
+    top: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* background-image: linear-gradient(to bottom, grey, white, white, white,  grey); */
+    
+    /* width: 200px; */
+
+    }
+.navbar {
+   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.navmenu li{
+    list-style: none;
+}
+
+.fibretext {
+    padding-left: 100px;
+    font-weight: bold;
+    font-size: 19px;
+}
+
+.stars{
+    padding-top: 100px;
+    padding-left: 100px;
+    
+}
+.firsttext{
+    margin-top: 20px;
+    padding-left: 10px;
+    padding-top: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   
+}
+.build{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.time{
+    margin-top:60px ;
+}
+.agood{
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.fibre{
+    padding-bottom:70px ;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* padding-top: 70px; */
+    padding-left: 100px;
+    margin-top: 150px;
+
+}
+.responsive{
+    margin-top: 65px;
+}
+
+.taggg{
+    margin-top: 65px;
+}
+.platforms{
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 100px;
+}
+.why{
+    color: blue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.img{
+    width: 40%;
+    height: 40%;
+    padding-left: 650px;
+    padding-top: -500px;   
+    margin-top: -430px; 
+}
+
+.diversify{
+            width: 85%;
+            height: 500px;
+            margin-top:100px ;
+            background-color: blue;
+            border-radius: 8px;
+            background-image: linear-gradient(blue black);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-blend-mode:normal;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            box-shadow: 4px 4px 4px 4px black;
+}
+.diversify-port{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 60px;
+    font-size: 35px;
+    padding-top: 150px;
+
+}
+
+
+.userpanel{
+    display: flex;
+    gap: 30px;
+}
+
+.intimg{
+    width: 50%;
+    height: 90%;
+    padding-left: 500px;
+    padding-bottom: 200px;
+    margin-top: -279px;
+    border-radius: 0%;
+}
+
+.btnfree{
+    padding-left: 60px;
+    margin-top: 20px;
+
+}
+.btnfree:hover{
+    background-color: blue;
+    color: white;
+}
+.free{
+    background-color: white;
+    color: blue;
+    border: none;
+    border-radius:5px ;
+    padding: 15px 15px 15px 15px ;
+    font-size: 15px;
+    /* margin-top: -20px; */
+
+}
+.free:hover{
+    background-color: aqua;
+    color: white;
+    transition: 0.3;
+    box-shadow: 4px 4px 4px 4px black;
+}
+.article{
+    padding-left: 60px;
+    margin-top: -18px;
+}
+
+
+
+.sarah{
+   
+    height: 100%;
+    width: 30%;
+    margin-top:200px;
+            background-color: rgb(255, 255, 255);
+            border-radius: 8px;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            padding-top: 200px;
+            border: 2px solid black;
+
+}
+
+.firstperson{
+    padding-left: 100px;
+}
+
+
+.texttwo{
+    font-size: 50px;
+    padding-left: 100px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.navbar a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    justify-content: space-between;
+    display: flex;
+    top: 0;
+}
+.navmenu {
+    display: flex;
+    justify-content: space-between;
+    width: 180px;
+    padding-right: 90px;
+    
+    
+}
+.signin {
+    background-color: white;
+    margin-right: 30px;
+    padding: 6px 5px;
+    border: none;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    cursor: pointer;
+}
+.signout {
+    background-color: blue;
+    border-radius: 4px;
+    border: none;
+    color: white;
+    padding: 14px 14px;
+    cursor: pointer;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.signout:hover{
+    background-color: aqua;
+    color: black;
+    transition: 0.3s;
+    box-shadow: 4px 4px 4px 4px black;
+}
+.signout.navmenu {
+    scale: 10px;
+    transition: 20s;
+    cursor: pointer;
+    color: black;
+
+    
+}
+.signinbtns{
+    padding-right:200px;
+
+}
+.commnity {
+    padding: 20px;
+    
+}
+.pricing {
+    padding: 20px;
+    
+}
+.features{
+    padding: 20px;
+   
+}
+.signin.navmenu{
+    scale: 10px;
+    transition: 20s;
+    cursor: pointer;
+    
+}
+.mainstuff{
+    padding-top: 40px;
+   
+    display: flexbox;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+.image1{
+    padding-bottom: 20px;
+    margin-top: -3px;
+    
+}
+.image2{
+    padding-top: 200px;
+    padding-left: 400px;
+    /* text-align: center; */
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    /* margin-left: -200px; */
+    
+}
+.lorem2{
+    margin-left: -200px;
+    
+    
+}
+.lorem1{
+    margin-right: -200px;
+    padding-left: 700px;
+    padding-top: 100px;
+    /* color: white; */
+}
+.realimage{
+    size: 20px;
+}
+
+.start{
+    padding-left: 100px;
+    padding-top: 10px;
+   
+}
+
+
+
+.checks{
+    padding-left: 100px;
+    padding-top:20px ;
+    align-items: center;
+    display: flex;
+}
+
+.nccr{
+    padding-left: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.secondcheckmark{
+    padding-left: 30px;
+}
+
+.btn-second{
+    padding: 15px 15px 15px 15px;
+    background-color: blue;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.btn-second:hover{
+    background-color: aqua;
+    color: black;
+    transition: 0.3s;
+}
+.vexamples{
+    color: blue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 20px;
+}
+.minitext{
+    padding-left: 100px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: inherit;
+}
+.real{
+    size: -2000px;
+    padding: px;
+    align-items: center;
+    
+}
+.mainspace{
+    border-color:2px solid black ;
+}
+.testimonials{
+    width: 80%;
+    margin: auto;
+    margin-right: 10px;
+    padding-top: 100px;
+    text-align: center;
+ }
+ .testimonials-col{
+    flex-basis: 30%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    text-align: left;
+    border-color: 2px solid black;
+    padding: 25px;
+    /* cursor: pointer; */
+    display: flex;
+    box-shadow: 4px 4px 4px 4px rgba(63, 62, 62, 0.534);
+    margin-top: 40px;
+
+ }
+.testimonials-col img{
+    height: 40px;
+    margin-left: 5px;
+    margin-right: 20px;
+    border-radius: 50%;
+}
+.testimonials-col div text{
+    margin-top: -300px;
+    padding: 0;
+    padding-top: -200px;
+    font-weight: 500;
+    
+
+}
+.text{
+    color: blue;
+}
+.text-mini{
+    margin-left: 1px;
+    top: 10px;
+    display: flex;
+    position: relative;
+}
+.testimonials-col h5{
+padding: 0;
+margin-top: -16px;
+}
+.testimonials-col button{
+    padding: 20px 50px ;
+    padding-left: 50px;
+    padding-right: 50px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: blue;
+    border-radius: 9px;
+    border-color: blue;
+    background-color: transparent;
+    cursor: pointer;
+    /* width: 100%; */
+    
+}
+.testimonials-col button:hover{
+    background-color: blue;
+    color: white;
+    transition: 0.3s;
+    box-shadow: 4px 4px 4px 4px rgba(107, 100, 100, 0.534);
+}
+.mini-stuff{
+    margin-left: -70px;
+}
+
+.testimonials-col p{
+    padding: 0;
+    margin: 3px;
+}
+.testimonials-col h3{
+    margin-top: 5px;
+    text-align: left;
+}
+.testimonials-col .fa{
+    color: #f44336;
+}
+
+.footer{
+    margin-top: 100px;
+    /* display: flex; */
+   
+}
+.footer-col{
+    font-size: 20px;
+   
+}
+.made{
+    bottom: 0;
+}
+
+.extras{
+    padding-left: 600px;
+    margin-top: -179px;
+    display: flex;
+    gap: 70px;
+    row-gap: 200px;
+    
+}
+.smalls{
+    margin-top: 25px;
+    margin-right: -20px;
+    font-size: 15px;
+    row-gap: 200px;
+    
+}
+.extras li{
+    text-decoration: none;
+    list-style: none;
+    line-height: 13px;
+    
+}
+
+@media(max-width:700px) {
+
+        .body{
+            margin: 0;
+            padding: 0;
+        }
+}
